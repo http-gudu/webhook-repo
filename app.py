@@ -6,7 +6,7 @@ from bson.json_util import dumps
 app = Flask(__name__)
 
 # MongoDB Atlas URI
-app.config["MONGO_URI"] = "mongodb+srv://dibendrabehera96:Gudu381@cluster0.voy4n.mongodb.net/github_webhooks?retryWrites=true&w=majority&appName=Cluster0"
+app.config["MONGO_URI"] = "mongodb+srv://dibendrabehera96:password@cluster0.voy4n.mongodb.net/github_webhooks?retryWrites=true&w=majority&appName=Cluster0"
 
 # Initialize MongoDB
 mongo = PyMongo(app)
